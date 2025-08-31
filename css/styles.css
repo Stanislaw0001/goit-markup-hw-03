@@ -1,0 +1,219 @@
+/* ----HEADER-LOGO---- */
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-span {
+    color: #2e2f42;
+}
+
+nav ul li a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #404bbf;
+}
+
+/*-----HEADER-CONTACTS-----*/
+
+.header-contacts {
+    font-style: normal;
+}
+
+.header-contacts a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+    color: #404bbf;
+}
+
+/*----MAIN-HERO----*/
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+    margin-bottom: 16px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    text-decoration: underline;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+.features {
+    background-color: #ffffff;
+}
+
+.features-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2e2f42;
+}
+
+.features-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.features-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*----MAIN-TEAM----*/
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+    line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+.team-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*----MAIN-PORTFOLIO----*/
+
+.portfolio-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+    line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.portfolio-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*----FOOTER----*/
+
+.footer {
+background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.footer-span {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
