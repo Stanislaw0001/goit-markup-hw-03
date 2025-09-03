@@ -76,7 +76,7 @@ nav ul li a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -105,7 +105,7 @@ nav ul li a:focus {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -121,22 +121,15 @@ nav ul li a:focus {
     padding-bottom: 188px;
 }
 
-.hero-container {
-    text-align: center;
-    flex-direction: column;
-    gap: 48px;
-}
-
 .hero-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     color: #ffffff;
-    margin-bottom: 16px;
     line-height: 1.07;
-    text-align: center;
+    max-width: 526px;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -151,7 +144,8 @@ nav ul li a:focus {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -171,6 +165,19 @@ nav ul li a:focus {
     font-weight: 700;
     font-size: 36px;
     color: #2e2f42;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-list {
@@ -194,7 +201,7 @@ nav ul li a:focus {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
 }
 
 /*----MAIN-TEAM----*/
@@ -209,13 +216,24 @@ nav ul li a:focus {
     font-size: 36px;
     color: #2E2F42;
     line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    justify-content: center;
 }
 
 .team-item {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
 }
 .team-subtitle {
     font-family: "Roboto", sans-serif;
@@ -223,7 +241,10 @@ nav ul li a:focus {
     font-size: 20px;
     color: #2e2f42;
     line-height: 1.2;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -232,7 +253,8 @@ nav ul li a:focus {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /*----MAIN-PORTFOLIO----*/
@@ -243,9 +265,26 @@ nav ul li a:focus {
     font-size: 36px;
     color: #2E2F42;
     line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 120px;
+    max-width: 1128px;
+}
+
+.portfolio-item {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-subtitle {
@@ -254,7 +293,8 @@ nav ul li a:focus {
     font-size: 20px;
     color: #2e2f42;
     line-height: 1.2;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    margin: 32px auto 8px 16px;
 }
 
 .portfolio-text {
@@ -263,7 +303,8 @@ nav ul li a:focus {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    margin: 0 auto 32px 16px;
 }
 
 /*----FOOTER----*/
@@ -272,14 +313,23 @@ nav ul li a:focus {
 background-color: #2e2f42;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 16px;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .footer-span {
@@ -290,6 +340,8 @@ background-color: #2e2f42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+    text-align: start;
 }
